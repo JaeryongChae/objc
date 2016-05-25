@@ -10,24 +10,40 @@
 #import "Calculator.h"
 #import "Fraction.h"
 
+// Class A
+@interface ClassA : NSObject
+{
+    int x;
+}
+
+- (void) initVar;
+@end
+
+@implementation ClassA
+- (void) initVar
+{
+    x = 100;
+}
+@end
+
+// Class B
+@interface ClassB : ClassA
+- (void) printVar;
+@end
+
+@implementation ClassB
+- (void) printVar
+{
+    NSLog(@"x = %i", x);
+}
+@end
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Fraction *aFraction = [[Fraction alloc] init];
-        Fraction *bFraction = [[Fraction alloc] init];
+        ClassB *b = [[ClassB alloc] init];
         
-        [aFraction setNumerator: 1];
-        [aFraction setDenominator: 4];
-        
-        [aFraction print];
-        NSLog(@" =");
-        NSLog(@"%g", [aFraction convertToNum]);
-        
-        [bFraction print];
-        NSLog(@" =");
-        NSLog(@"%g", [bFraction convertToNum]);
-        
-        [aFraction release];
-        [bFraction release];
+        [b initVar];
+        [b printVar];
     }
     return 0;
 }
