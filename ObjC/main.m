@@ -8,17 +8,26 @@
 
 #import <Foundation/Foundation.h>
 #import "Calculator.h"
+#import "Fraction.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Calculator *deskCalc = [[Calculator alloc] init];
+        Fraction *aFraction = [[Fraction alloc] init];
+        Fraction *bFraction = [[Fraction alloc] init];
         
-        [deskCalc setAccumulator:100.0];
-        [deskCalc add:200.];
-        [deskCalc divide:15.0];
-        [deskCalc subtract:10.0];
-        [deskCalc multiply:5];
-        NSLog(@"The result is %g", [deskCalc accumulator]);
+        [aFraction setNumerator: 1];
+        [aFraction setDenominator: 4];
+        
+        [aFraction print];
+        NSLog(@" =");
+        NSLog(@"%g", [aFraction convertToNum]);
+        
+        [bFraction print];
+        NSLog(@" =");
+        NSLog(@"%g", [bFraction convertToNum]);
+        
+        [aFraction release];
+        [bFraction release];
     }
     return 0;
 }
