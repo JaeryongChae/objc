@@ -7,43 +7,31 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Calculator.h"
-#import "Fraction.h"
+#import "ClassD.h"
 
-// Class A
-@interface ClassA : NSObject
-{
-    int x;
-}
-
-- (void) initVar;
-@end
-
-@implementation ClassA
-- (void) initVar
-{
-    x = 100;
-}
-@end
-
-// Class B
-@interface ClassB : ClassA
-- (void) printVar;
-@end
-
-@implementation ClassB
-- (void) printVar
-{
-    NSLog(@"x = %i", x);
-}
-@end
+int gGlobalVar = 5;
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        ClassB *b = [[ClassB alloc] init];
+        ClassD *classD = [[ClassD alloc] init];
         
-        [b initVar];
-        [b printVar];
+        NSLog(@"gGlobalVar = %i", gGlobalVar);
+        
+        [classD methodD];
+        
+        NSLog(@"gGlobalVar = %i", gGlobalVar);
+        
+        [classD methodD];
+        
+        NSLog(@"gGlobalVar = %i", gGlobalVar);
+        
+        [classD methodD];
+        
+        NSLog(@"gGlobalVar = %i", gGlobalVar);
+        
+        [classD methodD];
+        
+        NSLog(@"gGlobalVar = %i", gGlobalVar);
     }
     return 0;
 }

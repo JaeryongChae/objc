@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C20095571CF68DF9003C0AA9 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = C20095561CF68DF9003C0AA9 /* Rectangle.m */; };
+		C200955A1CF69115003C0AA9 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = C20095591CF69115003C0AA9 /* Square.m */; };
+		C200955D1CF69956003C0AA9 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C200955C1CF69956003C0AA9 /* XYPoint.m */; };
+		C20095661CF6B9D8003C0AA9 /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = C20095651CF6B9D8003C0AA9 /* Complex.m */; };
+		C20095781CF6E054003C0AA9 /* Fraction+MathOps.m in Sources */ = {isa = PBXBuildFile; fileRef = C20095771CF6E054003C0AA9 /* Fraction+MathOps.m */; };
+		C200957B1CF6E36D003C0AA9 /* ClassD.m in Sources */ = {isa = PBXBuildFile; fileRef = C200957A1CF6E36D003C0AA9 /* ClassD.m */; };
+		C20095801CF6E95B003C0AA9 /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = C200957D1CF6E95B003C0AA9 /* ClassA.m */; };
+		C20095811CF6E95B003C0AA9 /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = C200957F1CF6E95B003C0AA9 /* ClassB.m */; };
 		C2738C111CF43DF500E7E145 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738C101CF43DF500E7E145 /* Fraction.m */; };
 		C2738C141CF43F7D00E7E145 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C2738C131CF43F7D00E7E145 /* Calculator.m */; };
 		C2BF81231CF3EE330052A0CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BF81221CF3EE330052A0CF /* main.m */; };
@@ -25,6 +33,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C20095551CF68DF9003C0AA9 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		C20095561CF68DF9003C0AA9 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		C20095581CF69115003C0AA9 /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		C20095591CF69115003C0AA9 /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+		C200955B1CF69956003C0AA9 /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		C200955C1CF69956003C0AA9 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
+		C20095641CF6B9D8003C0AA9 /* Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
+		C20095651CF6B9D8003C0AA9 /* Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Complex.m; sourceTree = "<group>"; };
+		C20095761CF6E054003C0AA9 /* Fraction+MathOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fraction+MathOps.h"; sourceTree = "<group>"; };
+		C20095771CF6E054003C0AA9 /* Fraction+MathOps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Fraction+MathOps.m"; sourceTree = "<group>"; };
+		C20095791CF6E36D003C0AA9 /* ClassD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassD.h; sourceTree = "<group>"; };
+		C200957A1CF6E36D003C0AA9 /* ClassD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassD.m; sourceTree = "<group>"; };
+		C200957C1CF6E95B003C0AA9 /* ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		C200957D1CF6E95B003C0AA9 /* ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		C200957E1CF6E95B003C0AA9 /* ClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		C200957F1CF6E95B003C0AA9 /* ClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
 		C2738C0F1CF43DF500E7E145 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		C2738C101CF43DF500E7E145 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 		C2738C121CF43F7D00E7E145 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
@@ -64,10 +88,26 @@
 			isa = PBXGroup;
 			children = (
 				C2BF81221CF3EE330052A0CF /* main.m */,
+				C200957C1CF6E95B003C0AA9 /* ClassA.h */,
+				C200957D1CF6E95B003C0AA9 /* ClassA.m */,
+				C200957E1CF6E95B003C0AA9 /* ClassB.h */,
+				C200957F1CF6E95B003C0AA9 /* ClassB.m */,
 				C2738C0F1CF43DF500E7E145 /* Fraction.h */,
 				C2738C101CF43DF500E7E145 /* Fraction.m */,
 				C2738C121CF43F7D00E7E145 /* Calculator.h */,
 				C2738C131CF43F7D00E7E145 /* Calculator.m */,
+				C20095551CF68DF9003C0AA9 /* Rectangle.h */,
+				C20095561CF68DF9003C0AA9 /* Rectangle.m */,
+				C20095581CF69115003C0AA9 /* Square.h */,
+				C20095591CF69115003C0AA9 /* Square.m */,
+				C200955B1CF69956003C0AA9 /* XYPoint.h */,
+				C200955C1CF69956003C0AA9 /* XYPoint.m */,
+				C20095641CF6B9D8003C0AA9 /* Complex.h */,
+				C20095651CF6B9D8003C0AA9 /* Complex.m */,
+				C20095761CF6E054003C0AA9 /* Fraction+MathOps.h */,
+				C20095771CF6E054003C0AA9 /* Fraction+MathOps.m */,
+				C20095791CF6E36D003C0AA9 /* ClassD.h */,
+				C200957A1CF6E36D003C0AA9 /* ClassD.m */,
 			);
 			path = ObjC;
 			sourceTree = "<group>";
@@ -129,8 +169,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2738C141CF43F7D00E7E145 /* Calculator.m in Sources */,
+				C200957B1CF6E36D003C0AA9 /* ClassD.m in Sources */,
 				C2BF81231CF3EE330052A0CF /* main.m in Sources */,
+				C20095661CF6B9D8003C0AA9 /* Complex.m in Sources */,
+				C200955A1CF69115003C0AA9 /* Square.m in Sources */,
 				C2738C111CF43DF500E7E145 /* Fraction.m in Sources */,
+				C20095801CF6E95B003C0AA9 /* ClassA.m in Sources */,
+				C20095571CF68DF9003C0AA9 /* Rectangle.m in Sources */,
+				C20095781CF6E054003C0AA9 /* Fraction+MathOps.m in Sources */,
+				C20095811CF6E95B003C0AA9 /* ClassB.m in Sources */,
+				C200955D1CF69956003C0AA9 /* XYPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
